@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: simple-nodejs-app-lvu3
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-dyvu-tenant/nodejs-users/simple-nodejs-app-lvu3@sha256:8132dc80ccf16a9bf1d5068c1434328580f79352594fe443234b45a56866dd45
+        name: my-nodejs
+        resources: {}
+status: {}
